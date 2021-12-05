@@ -6,11 +6,11 @@ import Typewriter from 'typewriter-effect';
 import Contact from './contact';
 
 function App() {
-
+  document.title = "Asif's Portfolio"
   
-
   const typing=()=>{
-      return(
+    return (
+        
         <Typewriter options={{
           loop:true,
         }}
@@ -26,8 +26,9 @@ function App() {
       )
   }
   return (
+    
     <div id="home">
-      
+      <title>Asif's Portfolio</title>
       <div className="container">
       <Header />
         <div className="container-item container-item1">
